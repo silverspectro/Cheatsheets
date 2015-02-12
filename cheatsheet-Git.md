@@ -30,6 +30,7 @@ git config --global ui.color true	//sets color help
 
 git status	//show the current stage
 git log	//show commit history
+git log -p 	//show commit history + file change
 git diff //get difference in the file
 
 git add "file.name"	//add the file to the stage
