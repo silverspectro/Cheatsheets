@@ -66,4 +66,6 @@ git reset --soft HEAD^^	//move to commit 2 level before actual
 git tag 	//list all the tag
 git tag -a nameoftag -m "descritption"
 
+git rebase	//merge the fetched data with the current commit you add
+
 ```
