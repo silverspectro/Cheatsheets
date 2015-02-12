@@ -37,6 +37,7 @@ git remote nameoftherepo(ex:origin) url		//sets the actual directory to the remo
 git remote -v 	//list all the remote
 
 git push -u 	//push to the online repo and sets it to default
+git push origin branch	//push on github the branch on the given master/or origin
 git pull	//pull from the remote
 
 git clone url.git (optional)nameofthedirectory	//clone a repo
