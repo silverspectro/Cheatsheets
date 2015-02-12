@@ -39,6 +39,9 @@ git remote -v 	//list all the remote
 git push -u 	//push to the online repo and sets it to default
 git pull	//pull from the remote
 
+git branch	//list all the local branchs
+git branch -r 	//list all the remote branchs
+
 git clone url.git (optional)nameofthedirectory	//clone a repo
 
 git checkout branch	//move to the named branch
