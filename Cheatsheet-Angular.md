@@ -1,6 +1,6 @@
 #Cheatsheet Angular
 
-Scope in the HTML file are defined by the closing tag of the tag in whiwh the expression has been declared
+Scope in the HTML file are defined by the closing tag of the tag in with the expression has been declared
 
 ##HTML
 
