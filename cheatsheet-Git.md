@@ -61,5 +61,6 @@ git reset --soft HEAD^	//move to commit 1 level before actual
 git reset --soft HEAD^^	//move to commit 2 level before actual
 
 git tag 	//list all the tag
+git tag -a nameoftag -m "descritption"
 
 ```
