@@ -30,8 +30,19 @@ git add "file.name"	//add the file to the stage
 git add "*.extension" //add all the .extension file to the stage
 git add folder/	//all all the files and subfolder of the directory to the stage
 
-git commit "file.name"	//push the file to the repo online
-git commit --all	//push all the watched file to the online repo
+git commit "file.name"	//push the file to the repo
+git commit --all	//push all the watched file to the repo
+
+git remote nameoftherepo(ex:origin) url		//sets the actual directory to the remote online repo given a url https,git,ftp,etc...
+git remote -v 	//list all the remote
+
+git push -u 	//push to the online repo and sets it to default
+git pull	//pull from the remote
+
+git clone url.git (optional)nameofthedirectory	//clone a repo
+
+git checkout branch	//move to the named branch
+git checkout -b branch	//create a new branch and move in it
 
 git reset HEAD nameofthe.file   //uncommit the last change given the file
 git checkout -- nameof.file //undo last change on the given file
