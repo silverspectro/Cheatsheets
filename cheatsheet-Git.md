@@ -19,7 +19,7 @@ git config --global --user.email "youre@email.com"	//specify you email to git(ca
 git init //start a repo in this folder
 
 git config --global user.name “username”    //set the username for all repo(cant’ work withour one)
-git confug --global user.email “your@email.com” //set the email for all repo
+git config --global user.email “your@email.com” //set the email for all repo
 
 
 git status	//show the current stage
@@ -35,5 +35,6 @@ git commit --all	//push all the watched file to the online repo
 
 git reset HEAD nameofthe.file   //uncommit the last change given the file
 git checkout -- nameof.file //undo last change on the given file
-
+git reset --soft HEAD^	//move to commit 1 level before actual
+git reset --soft HEAD^^	//move to commit 2 level before actual
 ```
