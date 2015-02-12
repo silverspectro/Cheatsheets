@@ -35,6 +35,7 @@ git commit --all	//push all the watched file to the repo
 
 git remote nameoftherepo(ex:origin) url		//sets the actual directory to the remote online repo given a url https,git,ftp,etc...
 git remote -v 	//list all the remote
+git remote show origin	//list all the brancks and remote
 
 git push -u 	//push to the online repo and sets it to default
 git push origin branch	//push on github the branch on the given master/or origin
