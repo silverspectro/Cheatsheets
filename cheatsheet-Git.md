@@ -42,7 +42,10 @@ git push -u 	//push to the online repo and sets it to default
 git push origin branch	//push on github the branch on the given master/or origin
 git push origin :nameofthebranch	//delete the remote branch
 git push --tags		//push the local tags to the remote
-git pull	//pull from the remote
+
+git pull	//pull from the remote and merge
+
+git fetch	//pull but fon't merge
 
 git branch	//list all the local branchs
 git branch -r 	//list all the remote branchs
