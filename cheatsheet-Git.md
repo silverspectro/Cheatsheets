@@ -16,10 +16,16 @@ git config --global --user.email "youre@email.com"	//specify you email to git(ca
 
 ```
 
+pretty log
+
+git config --global alias.log \                                                    
+"log --graph --decorate --pretty=oneline --abbrev-commit --all"
+
 git init //start a repo in this folder
 
 git config --global user.name “username”    //set the username for all repo(cant’ work withour one)
 git config --global user.email “your@email.com” //set the email for all repo
+git config --global ui.color true	//sets color help
 
 
 git status	//show the current stage
